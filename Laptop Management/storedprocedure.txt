@@ -1,0 +1,11 @@
+<?php
+
+$q1="CALL 'user_details'();";
+$r1=mysqli_query($link,$q1);
+$resultcheckcheck1=mysqli_num_rows($r1);
+if($resultchek1>0) {
+while($row1 = mysqli_fetch_assoc($1)) {
+echo "Total no of Users:".$row1['total'] . "<br>";
+}
+}
+?>

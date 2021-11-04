@@ -1,0 +1,1 @@
+ <a href="admin/print.php?pid=<?php echo $data['id']; ?>"><button class="button button2" >Buy Now</button> </a>
